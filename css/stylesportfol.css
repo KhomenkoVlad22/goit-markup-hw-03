@@ -19,8 +19,7 @@
 .filter-list{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 55px;
+    margin-bottom: 55px;
     gap: 8px;
 }
 .filter-link{
@@ -43,12 +42,17 @@ color: var(--text-color-blck);
 }
 .work-text{
 font-size: 16px;
-line-height: 1.87;   
-}
-.work-list{
-    margin-bottom: 94px;
-}
-.work-item{
+line-height: 1.87;  
 
+}
+
+.work-item{
     background-color:var(--text-color-wht);
+}
+.work-description{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: var(--text-color-wht);
+    border: 1px solid #EEEEEE;
 }

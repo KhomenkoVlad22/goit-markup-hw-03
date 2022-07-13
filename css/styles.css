@@ -37,6 +37,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .card-set {
     display: flex;
     flex-wrap: wrap;
@@ -124,6 +128,8 @@ img {
 }
 /* Секція Герой */
 .section-hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--drk-bg);
     text-align: center;
 }
@@ -136,8 +142,8 @@ img {
     line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 200px;
-
+    letter-spacing: 0.06em;
+    margin-bottom: 30px;
 }
 .btn-hero{
     background-color: var(--accent-color);
@@ -154,19 +160,16 @@ img {
     letter-spacing: 0.06em;
     font-family: inherit;
     border: none;
-    margin-top: 30px;
-    margin-bottom: 200px;
+    
 }
 
 /* Секція опису роботи */
-.description{
-    padding-top: 94px;
-}
-.list{
-    list-style: none;
-}
+
+
 .description-list{
     flex-wrap: nowrap;
+    --card-item:4;
+
 }
 
 .description-title{
@@ -174,33 +177,26 @@ img {
  line-height: 1.14;
  font-size: 14px;
  text-transform: uppercase;
+ margin-bottom: 10px;
 }
 
 
 /* Секція про нас */
 .about{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 0px;
 }
 .section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
-.about-link{
-    display: block;
-    align-items: center;
-}
+
 /* Секція наша Команда */
-.section-title{
-    padding-top: 94px;
-}
+ 
 .team-list{
-    --card-gap: 30px;
     --card-item: 4;
-    padding-bottom: 94px;
 }
 .team{
     background-color: var(--light-bg );
@@ -241,6 +237,8 @@ img {
 }
 
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px ;
     background-color: var(--text-color-blck);
 }
 
@@ -252,9 +250,9 @@ img {
     color: var(--accent-color);
 }
 .footer .logo{
-    margin-top: 30px;
+    margin-bottom : 30px;
+    display: block;
 }
 .footer-list{
-   padding-top: 20px;
-   padding-bottom: 60px;
+ gap: 9px;
 }
