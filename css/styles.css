@@ -167,9 +167,7 @@ img {
 
 
 .description-list{
-    flex-wrap: nowrap;
     --card-item:4;
-
 }
 
 .description-title{
@@ -208,6 +206,7 @@ img {
     text-align: center;
 }
 .team-name{
+    margin-bottom: 10px;
     font-weight: 500; 
     color: var(--text-color-blck);
 }
@@ -221,14 +220,12 @@ img {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
 
+.team-content{
+    padding: 30px;
 }
-.team-name{
-    margin-top: 30px;
-}
-.team-text{
-    margin-bottom: 30px;
-}
+ 
 /* Секція футер */
 
 .adress{
@@ -254,5 +251,7 @@ img {
     display: block;
 }
 .footer-list{
+display: flex;
  gap: 9px;
+ flex-direction: column;
 }
