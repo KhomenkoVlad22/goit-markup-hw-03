@@ -215,6 +215,9 @@ img {
     font-size: 16px;
     line-height: 1.18;
 }
+.team-text{
+    font-weight: 400px;
+}
 .comand-item{
     text-align: center;
     background: #FFFFFF;
@@ -247,11 +250,76 @@ img {
     color: var(--accent-color);
 }
 .footer .logo{
-    margin-bottom : 30px;
+    margin-bottom : 20px;
     display: block;
 }
 .footer-list{
 display: flex;
  gap: 9px;
  flex-direction: column;
+}
+
+/* Портфолио */
+
+
+.filter-btn {
+    text-align: center;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: #F5F4FA;
+    ;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    padding: 6px 22px;
+
+}
+
+.filter-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.filter-link {
+    align-items: center;
+}
+
+.filter-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--text-color-wht);
+}
+
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--text-color-wht);
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--text-color-blck);
+    margin-bottom: 4px;
+
+}
+
+.work-text {
+    font-size: 16px;
+    line-height: 1.87;
+
+}
+
+.work-item {
+    background-color: var(--text-color-wht);
+}
+
+.work-description {
+    padding: 20px 24px;
+    background: var(--text-color-wht);
+    border: 1px solid #EEEEEE;
 }
